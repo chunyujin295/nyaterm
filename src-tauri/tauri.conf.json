@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "NyaTerm",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "identifier": "com.kang.nyaterm",
   "build": {
     "beforeDevCommand": "pnpm build:mcp-sidecar && pnpm dev",
@@ -65,9 +65,9 @@
       }
     },
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDgyQUYxQTA2NTYyQTNEOTkKUldTWlBTcFdCaHF2Z29pS0pEdE13U3ZUMVZVTlpGVmQ0YlU2cWlORkdNWU1BY005MU01YjFiU2IK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEQ4RUFDRkYxRDNBRjI0NTUKUldSVkpLL1Q4Yy9xMkduQ09qU1U0V3pTYlYzNVRadzFsbElNa2YrdEo0Tk1FYnloYjZLNWdZTisK",
       "endpoints": [
-        "https://downloads.nyaterm.app/latest.json"
+        "https://github.com/chunyujin295/nyaterm/releases/latest/download/latest.json"
       ],
       "windows": {
         "installMode": "passive"
